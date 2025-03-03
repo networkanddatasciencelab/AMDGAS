@@ -4,7 +4,7 @@ This code implements and evaluates the ANDGAS method described in paper "Assorta
 
 <img src="./framework.png">
 
-#Abstract
+# Abstract
 Graph neural architecture search (GraphNAS) has demonstrated significant advantages in automatically designing graph neural network architectures for graph classification tasks.
 However, a major limitation of GraphNAS is its vulnerability to distribution shifts, where the optimal architectures searched for training graphs may not generalize well to unseen testing graphs. 
 Recent approaches have addressed this issue by tailoring neural architectures for each graph through differentiable search and weight sharing.
