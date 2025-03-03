@@ -1,6 +1,6 @@
 # AMDGAS
 
-This code implements and evaluates the ANDGAS method described in paper "Assortativity Attention Based Multi-Dim Graph Neural Architecture Search Under Distribution Shifts". 
+This code implements and evaluates the AMDGAS method described in paper "Assortativity Attention Based Multi-Dim Graph Neural Architecture Search Under Distribution Shifts". 
 
 <img src="./framework.png">
 
