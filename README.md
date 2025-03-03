@@ -29,7 +29,9 @@ Other datasets are generated via [PyG](https://pytorch-geometric.readthedocs.io/
 
 Run graph classification experiments:
 ```
-python graph_search.py 
+nohup python graph_search.py --seed 4210 --jieduan 4 --useac True --device '1' --dataset_str 'sp' --sp_b '0.7' > experiment_samesize/sp_0.7_jieduan4/seed=4210.txt &
+nohup python graph_search.py --seed 4215 --jieduan 4 --useac True --device '1' --dataset_str 'hiv' --epochs 100 > experiment_newsp/hiv_jieduan4/seed=4215.txt &
+
 ``` 
 To get the mean and standard deviation reported in our paper:
 ```
